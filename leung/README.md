@@ -14,5 +14,7 @@ cmake --build build -j --config Release
 ffmpeg -i xxx.mp3/mp4 output.wav
 
 # 识别中文, 指定生成 subtitles.srt
+# 3个小时40分钟的，需要花费 15 分钟
 ./build/bin/whisper-cli -m models/ggml-base.bin -f output.wav -l zh -osrt -of subtitles -t 8
+
 ```
