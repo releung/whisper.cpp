@@ -142,4 +142,7 @@ ggml_metal_free: deallocating
 
 > 结论是还不如用剪映的本地语音识别，这个音频剪映识别的准确率更高，耗时更短.
 > 同样的 15分钟 wav, 在 mac M1 上剪映才花费 30s, 而 whisper 却需要 190-220s
+>
+> PotPlayer 241212 版本新增了使用 Whisper 从语音生成字幕的功能，用PotPlayer播放视频可实现识别音频为字幕的功能
+> 
 
